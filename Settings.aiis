@@ -179,9 +179,21 @@
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "934d3440-b9f5-4bee-95ca-6ba0e090fb58",
-    "SourceControlRepository": null,
-    "IsOnline": false,
-    "ProjectLanguage": 2,
+    "SourceControlRepository": {
+      "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitRepositoryInfo",
+      "__value": {
+        "RemotePath": "https://github.com/kalchev/reimagined-couscous.git",
+        "ServerInfo": {
+          "__type": "Telerik.TestStudio.SourceControl.Git.TS.GitServerInfo",
+          "__value": {
+            "ServerName": "https://github.com/kalchev/reimagined-couscous.git"
+          }
+        },
+        "ServerType": 2
+      }
+    },
+    "IsOnline": true,
+    "ProjectLanguage": 1,
     "ProjectReferences": [
       "System",
       "System.Core",
